@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import VideoChat from './components/VideoChat';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
           <h1>Video Chat with React Hooks</h1>
         </header>
         <main>
-          <p>video chat goes here</p>
+          <VideoChat />
         </main>
         <footer>
           <p>
